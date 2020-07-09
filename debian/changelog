@@ -1,3 +1,10 @@
+ntp (1:4.2.8p10+dfsg-5ubuntu7.2) bionic; urgency=medium
+
+  * ntpq should check return code from libcrypto calls (LP: #1884265)
+    - debian/patches/ntpq-openssl-check.patch
+
+ -- Joy Latten <joy.latten@canonical.com>  Thu, 09 Jul 2020 21:11:52 +0000
+
 ntp (1:4.2.8p10+dfsg-5ubuntu7.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: DoS via mode 6 packet

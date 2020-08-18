@@ -13,3 +13,4 @@ CVE-2018-7183.patch
 CVE-2018-7184.patch
 CVE-2018-7185.patch
 ntpq-openssl-check.patch
+CVE-2019-8936.patch
